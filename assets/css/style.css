@@ -1213,6 +1213,7 @@
       }
 
       .hero {
+        min-height: auto !important;
         padding-top: 80px;
         gap: 0;
       }
@@ -1229,11 +1230,7 @@
 
       .hero p {
         font-size: 1rem;
-        margin-bottom: 1.5rem;
-      }
-
-      .hero > div:last-child {
-        margin-top: 0;
+        margin-bottom: 0.5rem !important;
       }
 
       .hero-content {
@@ -1243,7 +1240,7 @@
 
       .hero-buttons {
         flex-direction: column;
-        margin-top: -15px !important;
+        margin-top: 10px !important;
         margin-bottom: 0 !important;
       }
 
@@ -1251,6 +1248,7 @@
       .hero > div:last-child {
         margin-top: 0 !important;
         padding-top: 0 !important;
+        flex-basis: auto !important;
       }
 
       .hero-buttons .btn {
