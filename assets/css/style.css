@@ -1141,7 +1141,7 @@
         align-items: center !important;
         text-align: center;
         gap: 1.5rem;
-        padding: 0 !important;
+        padding: 0 0 150px 0 !important;
         margin: 0 !important;
         opacity: 0;
         visibility: hidden;
@@ -1237,14 +1237,14 @@
       }
 
       .hero-content {
-        padding-bottom: 10px !important;
+        padding-bottom: 0 !important;
         margin-bottom: 0 !important;
       }
 
       .hero-buttons {
         flex-direction: column;
-        margin-top: 15px;
-        margin-bottom: 10px !important;
+        margin-top: -15px !important;
+        margin-bottom: 0 !important;
       }
 
       .hero-image,
