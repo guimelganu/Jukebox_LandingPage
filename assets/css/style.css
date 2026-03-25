@@ -1137,11 +1137,11 @@
         z-index: 1000;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: center !important;
+        align-items: center !important;
         text-align: center;
         gap: 1.5rem;
-        padding-top: 100px;
+        padding: 0 !important;
         opacity: 0;
         visibility: hidden;
         transform: translateY(20px);
@@ -1239,6 +1239,12 @@
       .hero-buttons {
         flex-direction: column;
         margin-top: 15px;
+        margin-bottom: 10px !important;
+      }
+
+      .hero-image,
+      .hero > div:last-child {
+        margin-top: 0 !important;
       }
 
       .hero-buttons .btn {
@@ -1370,11 +1376,13 @@
       }
 
       .team {
-        padding-bottom: 0.625rem;
+        padding-bottom: 10px !important;
+        margin-bottom: 0 !important;
       }
 
       .cta {
-        margin-top: -20px;
+        padding-top: 20px !important;
+        margin-top: 0 !important;
       }
     }
 
