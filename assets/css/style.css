@@ -1234,20 +1234,21 @@
       }
 
       .hero-content {
-        padding-bottom: 0 !important;
+        padding-bottom: 20px !important;
         margin-bottom: 0 !important;
       }
 
       .hero-buttons {
         flex-direction: column;
         margin-top: 10px !important;
-        margin-bottom: 0 !important;
+        margin-bottom: 15px !important;
       }
 
       .hero-image,
       .hero > div:last-child {
-        margin-top: 0 !important;
+        margin-top: 20px !important;
         padding-top: 0 !important;
+        padding-bottom: 25px !important;
         flex-basis: auto !important;
       }
 
