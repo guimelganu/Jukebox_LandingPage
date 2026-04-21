@@ -1973,11 +1973,44 @@
       .gallery-cell--featured {
         grid-column: span 2;
         grid-row: span 2;
+}
+
+    /* --- INICIO BLOQUE DE BLINDAJE MÓVIL (DO NOT REMOVE THIS QUERY) --- */
+    @media (max-width: 991px) {
+
+      /* 1. FIX PADDING TO REVEAL HIDDEN BADGE (immagine_9.png) */
+      .hero {
+        padding-top: 100px !important;
       }
 
-      
+      /* 2. SCALE DOWN THE LARGE CREATIVE ELEMENT (The "Spaghetti" SVG) */
+      .hero img.brand-accent {
+        width: 120px !important;
+        height: auto !important;
+        top: 10px !important;
+        right: 10px !important;
+        z-index: 1 !important;
+        animation: none !important;
+      }
 
+      /* 3. REFINE MOBILE TEXT FLOW */
+      .hero-badge {
+        margin-bottom: 0.5rem !important;
+        position: relative;
+        z-index: 10;
+      }
       
+      .hero h1 {
+        font-size: 1.8rem !important;
+        position: relative;
+        z-index: 10;
+      }
+      
+      .hero p {
+        font-size: 0.95rem !important;
+        position: relative;
+        z-index: 10;
+      }
 
-      
     }
+    /* --- FIN BLOQUE DE BLINDAJE MÓVIL --- */
