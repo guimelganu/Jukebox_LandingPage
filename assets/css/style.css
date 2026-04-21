@@ -2012,5 +2012,21 @@
         z-index: 10;
       }
 
+      /* --- INICIO BLOQUE DE BLINDAJE MÓVIL (SERVICIOS) --- */
+      /* 1. SEND CREATIVE ELEMENT TO THE BACK & FADE IT */
+      section.services img.brand-accent {
+        opacity: 0.1 !important;
+        z-index: 0 !important;
+        pointer-events: none !important;
+      }
+      
+      /* 2. PULL SERVICE CARDS TO THE FRONT */
+      .service-card {
+        position: relative !important;
+        z-index: 10 !important;
+        background: #1a1a1a !important;
+      }
+      /* --- FIN BLOQUE DE BLINDAJE MÓVIL (SERVICIOS) --- */
+
     }
     /* --- FIN BLOQUE DE BLINDAJE MÓVIL --- */
